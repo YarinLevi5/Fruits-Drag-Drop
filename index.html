@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="fruitsDrag.css">
+    <title>Fruits drag & drop</title>
+</head>
+
+<body>
+    <div id="display-container">
+        <div class="drag-container">
+            <img src="fruits_images/pineapple.gif" draggable="true" alt="Pineapple image" width="180px" id="pineapple">
+            <img src="fruits_images/banana.gif" draggable="true" alt="Banana image" width="100px" id="banana">
+            <img src="fruits_images/cherry.gif" draggable="true" alt="Cherry image" width="180px" id="cherry">
+            <img src="fruits_images/melon.gif" draggable="true" alt="Melon image" width="100px" id="melon">
+            <img src="fruits_images/strawberry.gif" draggable="true" alt="Straberry image" width="140px" height="120px"
+                id="straberry">
+
+        </div>
+        <div class="drop-container">
+            <div class="drop-elem" id="melon">Melon
+            </div>
+            <div class="drop-elem" id="cherry">Cherry</div>
+            <div class="drop-elem" id="banana">Banana</div>
+            <div class="drop-elem" id="pineapple">Pineapple
+            </div>
+            <div class="drop-elem" id="straberry">Straberry
+            </div>
+        </div>
+    </div>
+    <div class="error" id="error"></div>
+    <div id="game-over" class="gameOver">Game Over!</div>
+    <script src="fruitsDrag.js"></script>
+</body>
+
+</html>
